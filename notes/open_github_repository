@@ -1,0 +1,14 @@
+In order to open git hub repository 
+u will need to get to their site create a user.
+
+start new repository give it a name.
+
+* I dont remember how but u will have to create gpg keys and use them to make the connaction to your machine . (not sure this is neccery but if it doesnt work rember to do this step. there are plany of explantion online).
+
+Then through your machine clone set repo
+using:
+git clone <url> <name of the client repo>
+
+Do first commit and push check at github if the proccess was successfull
+if yes start working with git hub as u will.
+

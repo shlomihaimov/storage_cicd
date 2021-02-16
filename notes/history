@@ -1,0 +1,2000 @@
+git checkout -b server
+cd ..
+ll
+cd shlomi
+mkdir server
+cd server ; git init --bare
+git clone server user1
+cd ..
+git clone server user1
+git clone server user2
+cd
+ll
+cd shlomi
+ll
+cd user1/
+ll
+vi hi
+git add hi
+git commit hi
+git status
+git lo
+git log
+git chackout
+git checkout
+cat .git/config
+git push
+cd ..
+ll
+cd server
+git status
+git log
+cd ..
+cd user2
+git log]
+git log
+git status
+git pull
+git log
+cd..
+cd ..
+cd shlomi-remote/
+ll
+cd user4
+git log
+cd ..
+cd user3
+git push
+cd ..
+cd server
+ll
+gitlog
+git log
+cd ..
+cd user4
+git pull
+git log
+vi long
+cd ..
+cd shlomi-remote/
+ll user4
+vi long
+vi user4/long
+cp user4/long user3/long
+ll user3/long
+vi user4/long
+cd user4
+git add long
+git commit long
+git push
+cd ..
+cd user3
+git add long
+git commit long
+git push
+git status
+git log
+cd ..
+cd server
+git log
+cd ..
+cd user 3
+cd use3
+cd user3
+git push
+git pull
+git log
+cd ..
+cd server
+git log
+cd ..
+tree
+~/.gitconfig
+vi ~/.gitconfig
+cd server
+vi ~/.gitconfig
+cd ..
+cd user3
+ll
+cd ..
+cd user4
+ll
+git shortlogf
+git shortlog
+cd ..
+tree user4
+rpm -qa | grep git
+dd if=/dev/sda of=/dev/zero
+ll
+mkdir day2
+cd day2
+gpg --full-generate-key
+yum install rng-tools
+sudo apt install rng-tools
+sudo vi /etc/default/
+cat /etc/default/
+ll /etc/default/
+cat /etc/default/rng-tools
+sudo vi /etc/default/rng-tools
+
+/etc/init.d/rng-tools start
+gpg --gen-key
+ll
+ll ..
+ll
+git clone https://github.com/shlomihaimov/gpg-sign-demo.git shlomi
+ll
+cd shlomi
+cat .git/config
+git commit -S
+git commit -S<keyid>
+echo "# gpg-sign-demo" >> README.md
+ll
+git add README.md
+git commit -m "first commit"
+git status
+git log
+git commit -S
+vi ~/.gitconfig
+vi .git/config
+echo hi >> hello.txt
+ll
+git add hello.txt
+git commit -S
+gpg list keys
+gpglist keys
+gpg --list-key
+vi .git/config
+git branch -M main
+git remote add origin https://github.com/shlomihaimov/gpg-sign-demo.git
+git push -u origin main
+ll
+git log
+vi .git/config
+git satus
+git status
+git push
+git commit -m "my secend commit"
+ll
+ll ..
+ll ....
+ll ...
+gpg --list-secret-keys --keyid-format LONG
+gpg --armor --export B4AA06A35422FD54
+git status
+git commit -m "hi there"
+vi .git/config
+git commit -m "hi there"
+git status
+git log
+git commit -s
+git commit -S B4AA06A35422FD54
+git commit -s B4AA06A35422FD54
+gpg --list-key
+vi .git/config
+nano .git/config
+git commit -S -m "hii"
+GIT_TRACE=1 git
+GIT_TRACE=1 git commit -S -m "hii"
+GIT_TRACE=1 git commit -S 5422FD54 -m "hii"
+git commit -S 5422FD54 -m "hii"
+gpg --list-key
+gpg --list-keys
+git commit -S 5422FD54 -m "hii"
+GIT_TRACE=1 git commit -S 5422FD54 -m "hii"
+GIT_TRACE=1 git commit -m "hii"
+vi .git/config
+GIT_TRACE=1 git commit -S -m "hii"
+gpg --list-keys
+export GPG_TTY=$(tty)
+GIT_TRACE=1 git commit -S -m "hii"
+git push
+git pull
+git push
+gpg --gen-key
+history
+git branch
+cd ..
+git init shlomi2
+git commit -m "master"
+cd shlomi2
+git commit -m "master"
+gi log
+git log
+echo "helloe there" >> hello.txt
+ll
+git add hello.txt 
+git commit hello.txt -m "master"
+git log
+git commit hello.txt -m "master1"
+git commit echo "hii" >> hello1.txt -m "master1"
+echo "helloe there" >> hello1.txt
+git add hello1.txt 
+git commit hello1.txt -m "master2"
+git branch
+git chackout private
+git checkout private
+man git checkout 
+'
+'
+git checkout -b private
+ll
+touch hi.txt
+ll
+touch hi1.txt
+git add hi.txt
+git add hi1.txt
+git commit hi.txt -m "private "
+git commit hi1.txt -m "private "
+git status
+
+git checkout master
+git log
+git add hi.txt
+ll
+git add hello.txt
+git commit hello.txt -m "3 thing"
+git status
+git shortlog
+touch hola.txt
+git add hola.txt
+git commit hola.txt -m "3 thing"
+ll
+gi shortlog
+git shortlog
+git checkout  -b private2
+git log
+git pull . private
+git log
+man git checkout
+git checkout master
+git shortlog
+git pull origin master
+git shortlog
+git pull private2 master
+git brabch
+git branch
+git merge master private2
+git branch
+git shortlog
+git checkout private
+git pull . master
+git shortlog
+git checkout master
+git merge master private
+git shortlog
+git checkout -d private private2
+git checkout -d private 
+git branch -d private 
+git branch -d private2
+git branch 
+git shortlog
+git branch 
+git checkout -b private3
+echo "hii ">> kef.txt
+git add kef.txt
+git commit kef.txt -m "oof"
+gi shortlog
+git shortlog
+git checkout master
+git shortlog
+git checkout private3
+git push . master
+git push . master -f
+git checkout master
+git checkout private
+git push . HEAD:master 
+git checkout master
+gis shortlog
+git shortlog
+git branch
+git checkout private3
+gis shortlog
+git shortlog
+git push . HEAD:master 
+git checkout master
+git shortlog
+ll
+mkdir day3
+cd day3
+ll
+git init --bare server
+ll
+git clone server user1
+git clone server user2
+ll
+cd user1
+fk x in 1..4{do touch user1_$x | git add user1_$x | git commit user1_$x -ma "user1 commit" done}
+ll
+touch hello.txt
+git add hello.txt 
+git commit hello.txt -ma "first commit"
+git commit hello.txt -m "first commit"
+git log
+git push
+cd ../user2
+git pull
+git log
+cd ../user1
+for x in 1..4{do touch user1_$x | git add user1_$x | git commit user1_$x -ma "user1 commit" done}
+for x in 1..4{do touch user1_$x ; git add user1_$x ; git commit user1_$x -ma "user1 commit" done}
+ll
+touch user1_1
+touch user1_2
+touch user1_3
+git add user1_1
+git add user1_2
+git add user1_3
+git commit -am "user1_1"
+git status
+git shortlog
+git push 
+cd ../user2
+git shortlog
+git log --topo-order 
+git fetch
+git log --topo-order 
+git rebase
+git log --topo-order 
+git shortlog 
+touch user2_1
+touch user2_2
+touch user2_3
+git add user2_1
+git add user2_2
+git add user2_3
+git commit -ma "user2"
+git commit -ma "user2_1"
+git commit -ma "user2_2"
+git commit -ma "user2_3"
+ll
+git shortlog
+cd ../user1
+ll
+git shortlog
+git fetch
+git merge
+git shortlog 
+git merge HEAD:user2
+git merge user2
+git merge user1 user2
+git merge user2 user1
+git pull
+ll
+git shortlog
+cd ../user2
+git shortlog
+git push
+cd ../server
+git shortlog
+cd ../user1
+git fetch
+git merge
+ll
+git shortlog
+git log --topo-order 
+git shortlog --topo-order 
+cd ../user2
+git shortlog --topo-order 
+cd ../server
+git shortlog --topo-order 
+cd ../user1
+ll
+mv hello.txt hi.txt
+ll
+cd ../user2
+ll
+cd ../user1
+ll
+git pull
+git add hi.txt 
+git commit hi.txt -m "name change"
+git push
+gilog
+git shortlog
+cd ..
+ll
+cd user2
+git shortlog
+ll
+git fetch
+ll
+git rebase
+ll
+git merge
+ll
+history
+ll
+mv hi.txt shalom.txt
+git add shalom.txt 
+git commit shalom.txt -m "change name 2"
+git push
+ll
+git shortlog --topo-order
+cd ../user1
+ll
+git pull
+ll
+cd .git/config
+cat .git/config
+cd ./git
+ll .git
+ll .git/objects
+cat .git/objects
+cat .git/index
+cd ../server
+ll
+cat config
+cat head
+cat HEAD
+cat description 
+git lg
+cd
+cd day3/server
+ll
+vi config
+cd ../user1
+vi .git/config
+git lg
+vi .git/config
+git lg
+lg
+vi .git/config
+git lg
+vi .git/config
+git lg
+git lg1
+vi .git/config
+git l1
+git l2
+git l3
+git l3 a
+git l4
+git l5
+git l5 s
+vi .git/config
+git l2
+git l1
+vi .git/config
+git l1
+vi .git/config
+git l1
+vi .git/config
+git l1
+vi .git/config
+git config --global alias.visual '!gitk'
+git config --global alias.visual 
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+git lg --all
+git lg
+log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
+git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
+git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)' --abbrev-commit --branches
+git checkout -b minor_user
+git branch
+git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)' --abbrev-commit --branches
+git pull
+git log 
+git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)' --abbrev-commit --branches
+cd ..
+git clone https://github.com/libgit2/libgit2 shlomi
+cd shlomi
+ll
+git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
+vi .git/config
+git lg
+ll
+vi .git/config
+git lg1
+man git log
+git log --sparse
+git lg
+vi .git/config
+git lg fl
+vi .git/config
+git lg fl
+fl
+vi .git/config
+fl
+git fl
+vi .git/config
+git fl
+git lg
+vi .git/config
+git lg
+cl
+clear
+git lg
+useradd shlomi
+sudo useradd shlomi
+cat /etc/sudoers
+sudo cat /etc/sudoers
+sudo passwd shlomi
+usermod -aG wheel shlomi
+visudo
+sudo visudo
+usermod -aG admin shlomi
+sudo usermod -aG admin shlomi
+su shlomi
+su - shlomi
+sudo ls -la /root
+sudo su
+clear
+בג ץץ
+cd .
+cd ..
+git init masters
+cd masters/
+git branch feature1
+git checkout -b feature1
+git checkout -b feature2
+git branch
+git checkout
+ll
+git branch
+git checkout -b feature2
+git branch
+cd ..
+ll
+rm -rf masters
+git init ex6
+cd ex6/
+git checkout -b feature1
+git checkout -b feature2
+git branch
+git checkout -b feature2
+git branch
+touch shlomi
+git add shlomi
+git commit shlomi -m "first commit"
+git checkout -b feature1
+git branch
+touch shlomi
+git add shlomi
+git commit shlomi -m "secenod commit1"
+gti status
+git statugit status
+git status
+touch shlomi1
+git add shlomi1
+git commit shlomi1 -m "secenod commit1"
+git shortlog
+git checkout feature2
+git shortlog
+git checkout feature1
+cd ..
+rm -fr ex6
+git init --bare ex6
+cd ex6
+git  feature1
+git branch
+git branch master
+git checkout -b feature
+git checkout -b master
+git checkout master
+ll
+cd ..
+git clone usr1 ex6
+git clone ex6 usr1 
+git clone ex6 usr2
+cd usr1
+git branch
+git checkout -b feature1
+git branch
+touch shlomi
+git add shlomi
+git commit shlomi -m "first commit"
+ll
+git push
+git push --set-upstream origin feature1
+git branch
+git checout -d feature1
+git checkout -d feature1
+cd ..
+cd ex6
+git branch
+cd ..
+mkdir ex6.0
+cd ex6.0
+ll
+git init --bare server
+ll
+git clone server user1
+git clone server user2
+ll
+cd user1
+touch shlomi
+git add shlomi
+git commit shlomi -m "first commit"
+git push
+git checkout -b feature1
+git branch
+cd ../user2
+git pull
+g shortlog
+git shortlog
+git branch
+git checkout -b feature1
+git branch
+cd ../user1
+ll
+cd ../server/
+ll
+git branch
+git checkout -b feature1
+cd ../user1
+for x in {1..4}; do touch file$x ; git add file$x ; git commit file$x -m "commit user1" ; done
+git shortlog
+git push
+git push . master
+git checkout master
+git shortlog
+git pull . feature1 
+git shortlog
+cd ../server
+git branch
+git shortlog
+git pull
+cd ../user1
+git branch
+git pull
+git pull . HEAD:master
+cd ../server
+git shortlog
+cd ../user2
+cd ../user1
+git push . HEAD:master
+git push 
+cd ../server/
+git shortlog
+cd ../user2
+git pull
+git branch
+git branch master
+git checkout master
+git branch
+git pull
+git shortlog
+git checkout feature1 
+git shortlog
+git pull . master
+git shortlog
+git branch
+ll
+touch fil5
+git add fil5
+git commit fil5 -m "without the master"
+git push . server:master
+git push . server
+git shortlog
+cd ../user1
+git branch
+git checkout feature1 
+git fetch
+git merge
+git merge origin user2
+git merge user2 feature1 
+cd ../user2
+git branch
+git push . user1
+git push . server
+git push . feature1 
+git push . user1:feature1 
+git push 
+git push --set-upstream origin feature1
+git checkout master
+git shortlog
+cd ../user1
+git branch
+git pull
+git shortlog
+git branch --set-upstream-to=origin/feature1 feature1
+cd ../server
+ll
+git shortlog
+cd ../user2
+git shortlog
+git status
+ll
+git branch
+git checkout feature1 
+ll
+git status
+git push
+git push master
+git push server
+git push . 
+git merge user1  user2
+cd ..
+mkdir ex7.0
+cd ex7.0/
+git init --bare server
+git clone server client
+cd client
+history | grep for
+for x in {1..4}; do touch file$x ; git add file$x ; git commit file$x -m "commit client" ; done
+git shortlog
+git push
+git shortlog
+git drop commit client
+git log
+git rebase -i c8eb79aa21cf999d77b68bc1dfc14c08103f7291
+git shortlog
+git rebase -i 021960774b0a10fd92eaeb7320d13779b683f48a
+git rebase -i f379432ad4ec4c9cb21c548a0a5c9e49b5a59ccd
+touch shlomi
+git add shlomi 
+git commit shlomi -am "hi"
+git commit shlomi -am 
+git commit -am "shlomi" 
+git shortlog
+git rebase -i f379432ad4ec4c9cb21c548a0a5c9e49b5a59ccd
+git rebase --continue
+git rebase --abort
+git rebase -i f379432ad4ec4c9cb21c548a0a5c9e49b5a59ccd
+git shorlog
+git shortlog 
+git pull
+git push
+git pull
+git rebase --abort
+git rebase -i f379432ad4ec4c9cb21c548a0a5c9e49b5a59ccd
+git rebase --abort
+got status
+git status
+ll
+touch shlomi
+git add shlomi 
+git commit -am "shlomi"
+git status
+git push
+git shoortlog
+git shortlog
+git log
+git rebase -i 295be7725313087a14282f961c995f0a4d3267ff
+git rebase -i f379432ad4ec4c9cb21c548a0a5c9e49b5a59ccd
+git rebase --edit-todo
+git status
+cd
+ll
+mkdir day4 |cd day4
+ll
+cd day4
+ll
+mkdir ex8
+git init--bare server
+git init --bare server
+git clone server user
+ll
+rm ex8/
+rm -rf ex8
+ll
+cd user
+ttouch shlomi
+touch shlomi
+git add shlomi
+git commit -am "first commit"
+git log
+git branch
+git checkout -b feature_1
+git branch
+history | grep for
+for x in {1..4}; do touch file$x ; git add file$x ; git commit file$x -m "commit feature_1" ; done
+git shortlog
+git branch
+git worktree add -b feature_2 ../user1-feature2
+ll
+cd..
+cd ..
+ll
+cd user
+git branch
+cd ../user1-feature2/
+ll
+git shortlog
+for x in {6..9}; do touch file$x ; git add file$x ; git commit file$x -m "commit feature_2" ; done
+ll
+git shortlog
+cd ../user
+git shortlog
+cd ../user1-feature2/
+git push 
+vi .git/config
+sudo vi .git/config
+git push --set-upstream origin feature_2
+cd ../user
+git shortlog
+git branch
+git checkout feature2
+git checkout feature_2
+git branch
+git pull 
+git branch --set-upstream-to=origin/feature2 feature_1
+git branch --set-upstream-to=origin/feature_2 feature_1
+git pull
+git shortlog
+history | worktree
+history | grep worktree
+git worktree add -d feature_2 ../user1-feature2
+man git worktrre
+man git worktree
+git worktree remove feature_2 ../user1-feature2
+git worktree remove -d feature_2 ../user1-feature2
+git worktree remove -d feature_2 
+git worktree remove -d feature_2 --force
+man git worktree
+git worktree remove --force feature2
+git worktree remove --force feature_2
+git worktree remove --force user1_feature2
+git branch
+man git worktree
+git worktree remove --force ../user1_feature2
+ll ..
+git worktree remove --force ../user1-feature2
+ll .
+ll ..
+git branch
+git checkout feature_2
+git branch
+git shortlog 
+git checkout -d feature_2
+git checkout -m feature_2
+vi .git/config
+cd..
+cd ..
+man git stash
+cd user
+git stash save "hi "
+git stash save "hi"
+touch shlomi
+git stash save "hi"
+git branch
+git checkout feature_!
+git checkout feature_1
+git branch
+git stash save "hi"
+git stash list
+echo hi there > hola.txt
+git add
+git add hola.txt 
+git stash save "hi"
+echo hi there > hola1.txt
+git stash save "hi1"
+git stash list
+git stash pop 
+git stash show
+git stash show hi
+git stash show 
+git stash show stash@{0}:
+git stash show stash@{0}
+git stash list
+git add
+git add hola1.
+git stash show
+git stash list
+git add hola.txt
+git stash list
+git stash save "damn"
+git stash list
+git stash show
+git stash list
+git stash pop
+git stash list
+git reset HEAD hola.txt
+git stash list
+git add hola.txt
+git stash list
+touch shlomi
+git stash save "damn1"
+git stash list
+git stash apply
+git stash list
+git stash apply damn1
+git stash pop
+git stash show
+git stash branch feature_2
+git branch
+git shortlog
+git stash list
+touch shlomi
+git add shlomi
+git stash list
+git stash save "third commit"
+git stash list
+git stash branch feature_3 stash@{0}
+git branch
+ll
+git stash clear
+git branch
+cd ..
+ll
+cd day2
+ll
+cd shlomi
+cat .git/config
+cd ..
+ll
+cd shlomi2
+cat .git/config
+vi .git/config
+git shortlog
+touch me
+git add me
+git commit -am "just checing shlomi2" 
+history | grep tt
+export GPG_TTY=$(tty)
+git commit -am "just checing shlomi2" 
+git pull
+git shortlog
+cd ../shlomi
+git shortlog
+cd ../shlomi2
+cd ../shlomi
+cd ../shlomi2
+git push
+echo shlomi>> metoo.txt
+git add metoo.txt 
+git commit -am "fuck"
+git push
+git branch
+cd ..
+cd shlomi
+git tag -S
+git tag -s shalom
+git push
+man git tag
+git tag list
+man git tag
+git tag -v shalom
+git tag
+git tagvlist
+git tag list
+git tag -v list
+git push
+git pull
+git push
+git log --oneline --graph 
+touch shlomi3.txt
+git add shlomi3.txt
+git tag
+git commit -am "someting"
+git shortlog
+git log --oneline --graph 
+git tag -n
+cd ../shlmi2
+cd ../shlomi2
+git pull
+git log --oneline --graph 
+git pull . HEAD:master
+git fetch
+git rebase
+git shortlog
+'
+
+
+cd ../shlomi
+git push
+cd ../shlomi2
+git pull
+git log --oneline --graph 
+history |grep pretty
+git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
+cd ../shlomi
+git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
+git pull
+git push
+git push --tags
+cd ../shlomi2
+git tag
+git pull
+git tag
+git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
+vi .git/config
+git lg
+git pull . main
+git pull . HAED:main
+git pull origin main
+git branch
+cd ../shlomi
+touch her
+git add her
+git commit -am "her"
+git pushh
+git push
+git add her
+git commit -am "her22"
+touch her2
+git add salam
+git add her2
+git commit -am "her2"
+git push origin master
+git push origin HEAD:master
+git pull
+git push origin HEAD:master
+git pull --tags
+git pull origin HEAD:main
+git pull origin HEAD:master
+git push origin HEAD:master
+git shortlog
+cd ..
+mkdir dockers
+yum install docker
+sudo apt install docker
+docker run -p 8080:3001 nginx
+docker run -p 3001:8080 nginx
+docker run -p 3001:80 nginx
+docker run -p 80:3001 nginx
+docker run -p 3001:80 nginx
+docker run -p 3001:8080 nginx
+ddl shlomi
+dll shlomi
+sudo apt install brickos
+sudo apt install docker
+dll shlomi
+mkdir shit
+cd shit
+vi dockerfile
+ll
+vi app.py
+vi build.sh
+ll
+./app.java
+vi run.sh
+vi build.sh
+./build.sh
+pwd
+./home/ubuntu/dockers/shit/build.sh
+./build.sh
+build.sh
+docker build -t helloworld .
+vi app.java 
+docker build -t helloworld .
+vi app.java 
+vi dockerfile 
+docker build -t helloworld .
+mv app.java HelloWorld.java
+ll
+vi dockerfile 
+docker build -t hellothere .
+docker run -it --rm --name HelloWorld.java hellothere
+docker run hellothere
+rm build.sh 
+rm run.sh 
+ll
+vi HelloWorld.java 
+docker run hellothere
+docker build -t hellothere .
+docker run hellothere
+vi snake.java
+vi dockerfile
+docker build -t snake .
+mv snake.java Board.java
+vi dockerfile 
+docker build -t snake .
+docker run snake
+docker build -t Board  .
+vi dockerfile 
+docker build -t hellothere  .
+docker run hellothere
+cd ..
+mkdir shit2
+ll shit
+cp shit/Board.java shit2/Board.java
+ll
+ll shit2
+cd shit
+ll
+rm Board.java 
+ll
+cd ../shit2
+ll
+cp shit/dockerfile shit2/dockerfile
+cp ../shit/dockerfile dockerfile
+;;
+ll
+vi dockerfile
+docker build -t board  .
+docker run board
+vi Board.java 
+rm Board.java 
+vi snake.java
+mv snake.java Board.java
+docker build -t board  .
+vi Board.java 
+rm Board.java 
+vi Board.java 
+docker build -t board  .
+rm Board.java 
+vi Board.java 
+docker build -t board  .
+rm Board.java 
+vi Board.java 
+docker build -t board  .
+docker run board
+rm Board.java 
+vi Board.java 
+docker build -t board  .
+docker run board
+rm Board.java 
+vi Board.java 
+docker build -t board  .
+docker run board
+rm Board.java 
+vi Board.java 
+docker build -t board  .
+vi Board.java 
+docker build -t board  .
+mv Board.java snake.java
+vi dockerfile 
+docker build -t board  .
+docker run board
+cd ..
+rm -rf shit2
+ll
+cd shit
+ll
+vi dockerfile 
+docker images
+clear
+locate bash
+clear
+wall hii
+wall cool
+man wall
+cd ..
+mkdir webserver
+cd webserver/
+vi dockerfile
+ll
+vi requirements.txt
+vi app.py
+ll
+history | grep build
+docker build -t webserver
+ll
+docker build -t webserver .
+mv app.py main.py
+docker build -t webserver .
+history | grep run
+docker run -p 8000:8080 webserver
+vi dockerfile 
+docker run -p 8000:8080 webserver
+docker build -t webserver .
+docker run -p 8000:8080 webserver
+vi dockerfile 
+docker build -t webserver .
+docker run -p 8000:8080 webserver
+vi dockerfile 
+ll
+docker build -t webserver .
+docker run -p 3001:8080 webserver
+vi dockerfile 
+docker build -t webserver .
+docker run webserver
+vi dockerfile 
+docker build -t webserver .
+docker run -p 49160:8080 webserver
+mkdir flask_uuid
+cd flask_uuid
+pip install Flask==1.0.2
+sudo apt install Flask==1.0.2
+cd ..
+vi dockerfile 
+cat requirements.txt 
+docker run -p 3001:8080 webserver
+histort | grep build
+history | grep build
+history | grep run
+docker build -t webserver .
+history | grep run
+docker run -p 3001:8080 webserver
+vi dockerfile 
+ll
+rm flask_uuid/
+rm -fr flask_uuid/
+ll
+docker build -t webserver .
+docker run -p 3001:8080 webserver
+vi main.py
+rm main.py
+vi main.py
+docker build -t webserver .
+docker run -p 3001:8080 webserver
+vi dockerfile 
+docker build -t webserver .
+docker run -p 3001:8080 webserver
+docker run -p 8080:8080 -it webserver
+vi dockerfile 
+vi main .py
+ll
+vi main.py
+vi requirements.txt 
+docker build -t webserver .
+ll
+vi dockerfile 
+docker build -t webserver .
+vi dockerfile 
+docker build -t webserver .
+docker build -t webserver1 .
+pip install flusk
+python-pip install flusk
+sudo apt install python-pip
+python-pip install flusk
+pip install flusk
+vi dockerfile 
+ll
+vi dockerfile 
+docker build -t webserver .
+docker run -p 8080:8080 -it webserver
+vi main.py
+docker build -t webserver .
+docker run -p 3000:8080 -it webserver
+vi main.py
+docker build -t webserver .
+docker run -p 3000:8080 -it webserver
+ll
+vi main.py
+vi dockerfile 
+vi mv dockerfile Dockerfile
+mv dockerfile Dockerfile
+vi main.py
+docker build -t webserver .
+vi dockerfile 
+vi Dockerfile 
+docker build -t webserver .
+docker run -p 3000:8080 -it webserver
+vi mian.py
+vi main.py
+docker build -t webserver .
+docker run -p 3000:8080 -it webserver
+vi main.py
+docker build -t webserver .
+docker run -p 3000:8080 -it webserver
+docker run -p 8080:5000 -it webserver
+docker run -p 8080:8080 -it webserver
+vi main.py
+cd ..
+procceslut
+mkdir procceslut
+cd procceslut/
+ll
+vi proc1
+chmod +x ./proc1
+./proc1 
+vi proc1
+./proc1 
+vi proc1
+./proc1 
+vi proc1
+./proc1 
+vi proc1
+./proc1 
+vi proc1
+./proc1 
+vi proc1
+./proc1 
+cp proc1 proc2
+chmod +x ./proc2
+vi proc2
+ll
+bi both
+vi both
+rm both
+rm -f both
+cp proc1 both
+vi both
+chmod +x ./both
+./both
+clear
+ll
+cd dockers/
+ll
+cd shit/
+ll
+vi app.java
+vi dockerfile
+pwd
+vi dockerfile
+ll
+rm -f app.py
+vi build.sh 
+vi run.sh
+./build.sh
+sudo ./build.sh
+sudo su
+clear
+ll
+cd dockers/
+ll
+cd procceslut/
+ll
+vi Dockerfile
+ll
+docker build procceslut .sfv
+vi Dockerfile
+docker build procceslut .
+docker build -t procceslut .
+docker run -it procceslut
+history |grep run
+docker build -t procceslut .
+docker run -it procceslut
+vi Dockerfile 
+docker build -t procceslut .
+vi Dockerfile 
+docker build -t procceslut .
+vi Dockerfile 
+docker build -t procceslut .
+cp proc1 build
+vi build
+chmod +x ./build
+./build
+vi build 
+./build
+ll
+docker build -t procceslut .
+docker run -it procceslut
+docker run -t procceslut
+vi both
+vi Dockerfile 
+vi both
+vi proc1
+vi proc2
+docker build -t procceslut .
+docker run -t procceslut
+ll
+cd dockers/
+cd procceslut/
+kill proc1
+ll
+vi build
+./build
+ll
+./proc1
+vi build
+./build
+vi build
+./build
+cp build run
+vi run
+history |grep run
+vi run
+flear
+clear
+ll
+cp build buru
+vi buru
+l
+lll
+ll
+./buru
+cd dockers/
+cd procceslut/
+ll
+vi buru
+./buru
+cd dockers/
+cd procceslut/
+ll
+clear
+ll
+docker ps
+docker container
+clear
+ll]
+clear
+ll
+
+clear
+ll
+./proc1 &
+
+clear
+
+clear
+cd dockers/
+ll
+mkdir rootlss
+rm rootlss/
+rm rootlss -f
+rm -fr rootlss 
+mkdir rootless
+cd rootless/
+vi app
+chmod +x app
+./app
+touch datafile.txt
+./app
+chmod +w datafile.txt 
+./app
+vi app
+./app
+vi app
+./app
+vi app
+./app
+ll
+chmod 444 datafile.txt 
+ll
+chmod 666 datafile.txt 
+ll
+./app
+vi app
+chmod 777 datafile.txt 
+./app
+vi app
+./app
+vi app
+./app
+
+vi app
+./app
+cat datafile.txt 
+vi app
+./app
+vi app
+./app
+vi app
+./app
+vi app
+./app
+vi Dockerfile
+ll
+vi Dockerfile
+history | grep build
+docker build -t rootless
+docker build -t rootless .
+vi Dockerfile
+docker build -t rootless .
+docker run -it rootless
+history | grep run
+docker run -t rootless
+vi Dockerfile
+docker build -t rootless .
+docker run -t rootless
+vi Dockerfile
+docker run -t rootless
+docker build -t rootless .
+docker run -t rootless
+vi app
+docker build -t rootless .
+docker run -t rootless
+vi Dockerfile
+docker build -t rootless .
+docker run -t rootless
+vi app
+./app
+vi app
+vi Dockerfile
+docker build -t rootless .
+docker run -t rootless
+vi Dockerfile
+docker build -t rootless .
+docker run -t rootless
+vi app
+docker build -t rootless .
+docker run -t rootless
+./app
+vi app
+docker build -t rootless .
+docker run -t rootless
+docker run -it rootless
+vi app
+docker build -t rootless .
+docker run -it rootless
+cd ..
+ll
+cd webserver/
+ll
+vi Dockerfile 
+main.py
+vi main.py
+cp Dockerfile Dockerfile1
+vi Dockerfile1
+cp main.py main1.py
+vi main1.py 
+docker build -p 5000:8080 -f Dockerfile web1
+docker build -f Dockerfile web1
+docker build web1 -f Dockerfile 
+docker build -t web1 -f Dockerfile 
+docker build -t web1 . -f Dockerfile 
+docker build -t web2 . -f Dockerfile1 
+docker run -p 5000:8080 -d web1
+docker run -p 5001:8080 -d web2
+docker kill web1
+docker run -p 5000:80 -d web1
+docker ps
+vi main.py
+docker run -p 5000:8080 -d web1
+docker run -p 5000:8080 -t web1
+vi main.p
+vi main.py
+vi main1.py
+docker build -t web1 . -f Dockerfile 
+docker build -t web2 . -f Dockerfile1 
+docker run -p 5000:8080 -d web1
+docker ps
+docker run -p 5000:80 -d web2
+docker run -p 5001:80 -d web2
+docker ps
+vi main.py
+docker build -t web1 . 
+docker run -p 5000:8080 -d web1
+docker images
+docker ps
+docker kill web1
+docker rm web1
+docker ps
+docker container rm web1
+docker run -p 5000:8080 -d web
+docker run -p 5000:8080 -d web1
+vi main.py
+docker run -p 8080:8080 -d web1
+vi main.py
+docker build -t web1 . 
+docker run -p 8080:8080 -t web1
+docker stop web1
+docker stop web2
+docker stop web
+docker ps
+docker stop 7abe264bee1e 
+docker stop bfd78ddfac3e 
+docker ps
+docker stop ecd34df47685 
+docker stop e8fb3d015c39 
+docker ps
+docker build -t web1 . 
+docker run -p 8080:8080 -t web1
+vi main.py
+vi main1.py
+vi main.py
+vi main1.py
+vi main.py
+vi Dockerfile
+docker build -t web1 . -f Dockerfile
+docker build -t web2 . -f Dockerfile
+docker images
+docker build -t web2 . -f Dockerfile1
+docker ps
+docker run -d -p 5000:5000 web1
+docker run -d -p 5001:5001 web2
+docker ps
+wget localhost:5000
+curl localhost:5000
+curl localhost:5001
+vi main1.py
+docker ps
+docker stop d863dcbb7218 
+docker build -t web2 . -f Dockerfile1
+docker run -d -p 5001:5001 web2
+curl localhost:5001
+wget localhost:5001
+man wget
+wget -r localhost:5001
+wget localhost:5001
+ll
+cat index.html
+cat localhost:5000/
+ll localhost\:5000
+cat localhost\:5000/index.html 
+vi main.py
+ll
+rm index.html
+rm index.html.1
+rm index.html.2
+wget localhost:5001
+ll
+rm index.html 
+vi mani.pt
+vi mani.py
+vi main.py
+mkdir microserv
+cd microserv/
+cp ../Dockerfile Dockerfile
+vi Dockerfile 
+touch app1
+touch app2
+cp Dockerfile Dockerfile1
+vi Dockerfile1 
+ll
+vi Dockerfile
+vi Dockerfile1
+ll
+vi Dockerfile1
+vi Dockerfile
+ll
+vi app1
+rm app1
+cp ../main.py app1
+vi app
+vi app1
+rm app2
+cp app1 app2
+vi app2
+./app2
+chmod +x app1
+chmod +x app2
+chmod +x app1
+./app2
+docker build -d -f Dockerfile1 webs2
+docker build  -f Dockerfile1 -t webs2 .
+docker run -d -p 8081:8081 webs2
+curl "http:/localhost:8081/add?a=5&b=7"
+curl "http:/localhost:8080/add?a=5&b=7"
+docker ps
+docker stop 2fcec9930854 
+docker stop dbc1fa65d7e8 
+docker ps
+docker run -d -p 8081:8081 webs2
+docker ps
+docker run -p 8081:8081 -d webs2
+docker ps
+vi app2
+docker run -d -p 8081:8081 webs2
+docker build  -f Dockerfile1 -t webs2 .
+docker run -d -p 8081:8081 webs2
+docker ps
+./app2
+yum install flask
+apt install flask
+sudo apt install flask
+sudo python pip install flask
+apt install pip
+sudo apt install pip
+vi app2
+cd ..
+mkdir volumes
+cd volumes/
+cd volumedata
+mkdir volumedata
+cd volumedata
+ll ..
+ll ../..
+ll ../../shit
+ll ../../rootless
+cat ../../rootless/app
+cp ../../rootless/app app
+ll
+cat ../../rootless/Dockerfile 
+cp ../../rootless/Dockerfile Dockerfile
+ll
+clear
+vi Dockerfile 
+vi app
+vi Dockerfile 
+vi app
+docker ps
+docker build -t ex1  . 
+docker run -it -v sfv
+pwd
+docker run -it -v /home/ubuntu/dockers/volumes/volumedata ex1
+ll
+vi app
+vi Dockerfile 
+docker build -t ex1  . 
+docker run -it -u 1000: -v /home/ubuntu/dockers/volumes/volumedata ex1
+id -g
+docker run -it -u 1000:1000 -v /home/ubuntu/dockers/volumes/volumedata ex1
+vi app
+vi Dockerfile 
+docker build -t ex1  . 
+docker run -it -u 1000:1000 -v /home/ubuntu/dockers/volumes/volumedata ex1
+vi app
+docker build -t ex1  . 
+docker run -it -u 1000:1000 -v /home/ubuntu/dockers/volumes/volumedata ex1
+basename
+ll
+docker run -it -u 1000:1000 -v /home/ubuntu/dockers/volumes/volumedata:/data ex1
+ll
+docker run -it -u 1000:1000 -v /home/ubuntu/dockers/volumes/volumedata:/datafile.txt ex1
+touch datafile.txt
+docker run -it -u 1000:1000 -v /home/ubuntu/dockers/volumes/volumedata:/datafile.txt ex1
+docker run -it -u 1000:1000 -v /home/ubuntu/dockers/volumes/volumedata:/data ex1
+ll
+rm datafile.txt 
+mkdir data
+docker run -it -u 1000:1000 -v /home/ubuntu/dockers/volumes/volumedata:/data ex1
+ll
+ll data'
+
+ll data
+vi app
+vi Dockerfile 
+docker build -t ex1  . 
+docker run -it -u 1000:1000 -v /home/ubuntu/dockers/volumes/volumedata:/data ex1
+ll
+ll data
+cat datafile.txt 
+docker run -it -u 1000:1000 -v /home/ubuntu/dockers/volumes/volumedata/data:/data ex1
+ll
+ll data
+rm datafile.txt 
+cd ..
+mkdir dockervol
+cd dockervol/
+cp ../volumedata/Dockerfile  Dockerfile
+cp ../volumedata/app  app
+ll
+docker ps
+docker volume create vol
+ll
+docker volume
+docker volume ls
+docker volume inspect vol
+vi app
+ll /var/lib/docker/volumes/
+sudo ll /var/lib/docker/volumes/
+sudo ls /var/lib/docker/volumes/
+sudo ls /var/lib/docker/volumes/vol
+touch /var/lib/docker/volumes/vol/file
+sudo touch /var/lib/docker/volumes/vol/file
+sudo ls /var/lib/docker/volumes/vol/file
+vi Dockerfile 
+sudo chmod +x /var/lib/docker/volumes/vol/file
+sudo chmod -x /var/lib/docker/volumes/vol/file
+sudo chmod 666 /var/lib/docker/volumes/vol/file
+vi app
+docker build -t ex2 .
+docker run -d --mount source=vol,target=/ ex2
+docker run -d --mount source=vol,target=/app ex2
+vi Dockerfile 
+vi app
+docker build -t ex2 .
+docker run -d --mount source=vol,target=/data ex2
+docker ps
+sudo ls /var/lib/docker/volumes/vol/file
+sudo cat /var/lib/docker/volumes/vol/file
+sudo ls /var/lib/docker/volumes/vol
+sudo ls -l /var/lib/docker/volumes/vol
+docker inspect vol
+docker logs ex2
+docker ps -a | head -3
+docker logs 473e31725f97 
+vi app
+docker build -t ex2 .
+docker run -d --mount source=vol,target=/data ex2
+docker ps
+docker inspect vol
+docker stop f736d6f69359 
+docker inspect vol
+sudo ls -l /var/lib/docker/volumes/vol
+./app
+vi app
+docker build -t ex2 .
+docker run -d --mount source=vol,target=/data ex2
+docker ps
+docker stop 75b9ce8c4104 
+docker inspect vol
+vi Dockerfile 
+vi app
+docker build -t ex2 .
+docker run -d --mount source=vol,target=/data ex2
+docker ps
+docker ps -a | head -3
+docker logs ee2228634390 
+vi app
+docker build -t ex2 .
+docker run -d --mount source=vol,target=/data ex2
+docker ps
+docker ps -a | head -3
+docker logs beba766611b8 
+vi aop
+vi app
+docker build -t ex2 .
+docker run -d --mount source=vol,target=/data ex2
+docker ps
+docker ps -a | head -3
+docker logs 45bde44efadd 
+vi app
+docker build -t ex2 .
+docker run -d --mount source=vol,target=/data ex2
+docker ps
+sudo ls -l /var/lib/docker/volumes/vol
+docker stop b65c20b9d0b2 
+sudo ls -l /var/lib/docker/volumes/vol
+docker inspect vol
+vi Dockerfile 
+ll
+rm -f file
+vi Dockerfile 
+docker build -t ex2 .
+docker run -d --mount source=vol,target=/data ex2
+docker ps
+docker stop b65c20b9d0b2 
+docker stop 379c7d947324 
+docker inspect vol
+ll
+sudo ls -l /var/lib/docker/volumes/vol
+;;
+ll
+vi app
+ll
+vi app
+ll
+docker ps
+docker stop 379c7d947324 
+docker stop b65c20b9d0b2 
+docker rm b65c20b9d0b2 
+docker rm 379c7d947324 
+ll
+sudo ls -l /var/lib/docker/volumes/vol
+vi app
+docker build -t ex2 .
+docker run -d --mount source=vol,target=/data ex2
+sudo ls -l /var/lib/docker/volumes/vol
+docker container stop b5420aff63a0a965b947650543b54cfb1b2ab130cd387c831ca329fb8675bc2a
+docker container rm b5420aff63a0a965b947650543b54cfb1b2ab130cd387c831ca329fb8675bc2a
+sudo ls -l /var/lib/docker/volumes/vol
+ll
+vi Do
+vi Dockerfile 
+./app
+cd ..
+mkdir shareddata
+rm shareddata/
+rm -f shareddata/
+rm -fr shareddata/
+mkdir sharedata
+cd sharedata/
+ll
+mkdir data
+cp app ../dockervol/app
+cp app ../dockervol/app1
+cp ../dockervol/app1 aa
+cp ../dockervol/app app
+ll
+vi app
+clear
+cd
+ll
+mkdir biscuit
+cd biscuit/
+ll
+clear
+git init repo
+cd repo
+echo first commit > file
+ll
+git add file
+git commit -am "first commit"
+git log
+vi script
+chmod +x script
+./script
+vi script
+./script
+git add script
+git commit -am "1"
+git log
+touch 1
+git commit -am "2"
+git add .
+git commit -am "2"
+rm 1 
+git add .
+git commit -am "3"
+touch 1
+git add .
+git commit -am "4"
+rm 1 
+git add .
+git commit -am "5"
+touch 1
+git add .
+git commit -am "6"
+ll
+rm 1 
+vi script
+git add .
+git commit -am "7"
+touch 1
+git add . 
+git commit -am "8"
+rm 1
+git add . 
+git commit -am "9"
+vi script
+git add . 
+git commit -am "10"
+git log
+./script
+git bisect bad
+./script
+ll
+cat 
+ll refs/bisect/bad
+git bisect start
+git bisect bad
+git bisect good 6
+git log
+git bisect good 8e65e2f
+git bisect good
+./script
+git bisect bad
+git bisect reset
+git bisect start
+./script
+git bisect bad  
+git log
+git bisect good 7a899a9a
+git rebase -i --root
+git log
+git bisect good 0ec93c8
+./script
+git bisect good
+./script
+git bisect bad
+./script
+git bisect good
+cat refs/bisect/bad
+refs/bisect/bad
+sudo apt install sl
+sl
+rm sl
+which sl
+ll /usr/games
+sl
+vi /usr/games/sl
+ls
+ls -l
+cd /
+ls -l
+du -s *
+cd va
+cd var
+ls -l
+du -s *
+cd lib
+ls -l
+du -s *
+cd do
+cd docker
+ls -l
+du -s *
+cd vo
+cd volumes
+ls -l
+du -sh *
+rm -f vol
+rm -rf vol
+ls -l
+df
+ls -l
+systemctl start containerd.service 
+systemctl start docker.service 
+ps -ef | grep container
+ls -l
+sudo /bin/bash
+ls -l
+docker images
+docker container stop $(docker container ls –aq)
+docker container stop $(docker container ls -aq)
+docker ps
+docker ps -a
+docker container rm $(docker container ls –aq)
+docker container rm $(docker container ls -aq)
+docker ps -a
+docker ps 
+docker volume ls
+docker volume ls | head -4
+docker volume ls | tail -4
+docker volume ls | tail -4 | tr -s " " 
+docker volume ls | tail -4 | tr -s " "  | cut -f 2 -d " "
+for x in `docker volume ls | tail -4 | tr -s " "  | cut -f 2 -d " "`; docker volume rm "$x"; done
+for x in `docker volume ls | tail -4 | tr -s " "  | cut -f 2 -d " "`; do docker volume rm "$x"; done
+docker volume ls
+docker volume rm 58e32a6f5e4e5155366394f8b2f2cbbc25b26c44b13537fb08eb6aeca6a90e08
+docker volume ls
+df
+docker images
+docker images | tr -s " "
+docker images | tr -s " " | cut -f 3 -d " "
+for  x in `docker images | tr -s " " | cut -f 3 -d " "`; do docker rmi $x; done
+df
+ls -l
+docker images
+h3m http://18.159.111.217:8080/
+w3m http://18.159.111.217:8080/
+sudo apt install w3m
+w3m http://18.159.111.217:8080/
+w3m http://18.159.111.217:8080
+w3m "http://18.159.111.217:8080/"

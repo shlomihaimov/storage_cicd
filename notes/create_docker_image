@@ -1,0 +1,34 @@
+*note u will have to install docker on your machine.
+
+u will need to two critical files.
+1. Dockerfile
+   which is like a recppie to how to build the image from which base 
+   with what user to use copy the and run the app, etc.
+2. app
+   some application to run.
+   u can use multiple procces by just running an over all procces that willl run the   other proccess. looks something like this:
+ 
+   # run as much proccess as u would like.
+   ./proccess1 &
+   ./proccess2 &
+   # make the father proccess keep running
+   while true
+      time.sleep(1)
+ 
+############
+After creating evry thing u need to build the image its
+time to buid it and run it.
+
+build:
+docker build -t <name_of_image> .
+
+run:
+docker run -d(make it work in the background)-it(make it work while ustiil on it) -p(open to the container port if needed for example 8080) <name_of_image>
+
+########
+usefull commands:
+docker logs 
+docker ps -a(hidden images)
+docker stop (stop container)
+docker rm (erase container)
+

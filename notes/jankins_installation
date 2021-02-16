@@ -1,0 +1,25 @@
+There are few ways to install jankins on your machine:
+1. Using java
+   first u will have to install packege:
+   sudo apt install 
+   
+   Then u go in to jankins page in chrome and go to downoad and copy
+   the file link.
+   then use wget to install it
+   wget <link>
+   
+   Then run the command:
+   java -jar [file.war]
+
+   Finally enter to chrome with http://localhost:8080
+   enter the password u have been given.
+
+2. Using docker
+   run the command docker pull jenkins/jenkins:lts
+   *note u will have to have docker on your machine
+ 
+   Then type:
+   docker run -p 8080:8080 -it jenkins/jenkins:lts
+
+   Finally enter to chrome with http://localhost:8080
+   enter the password u have been given.  
