@@ -1,0 +1,15 @@
+
+#!/usr/bin/env python3
+from flask import Flask
+from flask import request
+import requests
+app = Flask(__name__)
+
+@app.route('/add')
+def add():
+     a = int(request.args.get(a))
+     b = int(request.args.get(b))
+     c = a + b
+     return 'the answer is'c
+
+app.run(debug=True, port=8081, host='0.0.0.0')

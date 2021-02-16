@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+x=0
+
+while true
+do
+	echo "proc2 : $x"
+	sleep 1
+        ((x++))
+done
+

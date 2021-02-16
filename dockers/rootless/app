@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+
+import os
+import time
+
+print ("my user id is", os.getuid(), "!")
+
+
+with open("datafile.txt", 'w') as f:
+	while True:
+		f.write("some data")
+		time.sleep(1)
+                
+

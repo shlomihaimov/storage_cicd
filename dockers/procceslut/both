@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+
+./proc1 &
+./proc2 &
+
+
+
+while true
+do
+	
+	sleep 10000
+        
+done
+
